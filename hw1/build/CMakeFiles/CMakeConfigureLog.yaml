@@ -1,0 +1,733 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 5.4.241-1-tlinux4-0017.12 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /data/home/kyrielpeng/miniforge3/bin/x86_64-conda-linux-gnu-cc 
+      Build flags: -march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/data/home/kyrielpeng/miniforge3/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /data/home/kyrielpeng/homework/homework/hw1/build/CMakeFiles/3.26.5/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is Clang using "--version" did not match "(clang version)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is ARMClang using "--version" did not match "armclang":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is HP using "-V" did not match "HP C":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is Intel using "--version" did not match "(ICC)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is SunPro using "-V" did not match "Sun C":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is XL using "-qversion" did not match "XL C":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is MSVC using "-?" did not match "Microsoft":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is TI using "-h" did not match "Texas Instruments":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is IAR using "" did not match "IAR Assembler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)|(Arm Compiler)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is NASM using "-v" did not match "(NASM version)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is YASM using "--version" did not match "(yasm)":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is ADSP using "-version" did not match "Analog Devices":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is QCC using "-V" did not match "gcc_nto":
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/data/home/kyrielpeng/homework/homework/hw1/build/CMakeFiles/CMakeScratch/TryCompile-pNdcr4"
+      binary: "/data/home/kyrielpeng/homework/homework/hw1/build/CMakeFiles/CMakeScratch/TryCompile-pNdcr4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/kyrielpeng/miniforge3/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/data/home/kyrielpeng/miniforge3/lib -Wl,-rpath-link,/data/home/kyrielpeng/miniforge3/lib -L/data/home/kyrielpeng/miniforge3/lib"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /data/home/kyrielpeng/homework/homework/hw1/build/CMakeFiles/CMakeScratch/TryCompile-pNdcr4
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_4fb76/fast && /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_4fb76.dir/build.make CMakeFiles/cmTC_4fb76.dir/build
+        gmake[1]: Entering directory '/data/home/kyrielpeng/homework/homework/hw1/build/CMakeFiles/CMakeScratch/TryCompile-pNdcr4'
+        Building C object CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o
+        /data/home/kyrielpeng/miniforge3/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/kyrielpeng/miniforge3/include    -v -o CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Reading specs from /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/data/home/kyrielpeng/miniforge3/bin/x86_64-conda-linux-gnu-cc
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++ --with-pkgversion='conda-forge gcc 14.2.0-2' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.2.0 (conda-forge gcc 14.2.0-2) 
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/data/home/kyrielpeng/miniforge3/include' '-v' '-o' 'CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_4fb76.dir/'
+         /data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/cc1 -quiet -v -iprefix /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/ -isysroot /data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot -isystem /data/home/kyrielpeng/miniforge3/include /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4fb76.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o
+        GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43
+        GNU C17 (conda-forge gcc 14.2.0-2) version 14.2.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 14.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/include"
+        ignoring duplicate directory "/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.2.0/include"
+        ignoring nonexistent directory "/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.2.0/include-fixed"
+        ignoring nonexistent directory "/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /data/home/kyrielpeng/miniforge3/include
+         /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/include
+         /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/include-fixed
+         /data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        Compiler executable checksum: 8787a0f9d6820a2d1236d81dc1e25e3b
+        COMPILER_PATH=/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/:/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../lib/:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/data/home/kyrielpeng/miniforge3/include' '-v' '-o' 'CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_4fb76
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fb76.dir/link.txt --verbose=1
+        /data/home/kyrielpeng/miniforge3/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/kyrielpeng/miniforge3/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/data/home/kyrielpeng/miniforge3/lib -Wl,-rpath-link,/data/home/kyrielpeng/miniforge3/lib -L/data/home/kyrielpeng/miniforge3/lib -v CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o -o cmTC_4fb76 
+        Reading specs from /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/data/home/kyrielpeng/miniforge3/bin/x86_64-conda-linux-gnu-cc
+        COLLECT_LTO_WRAPPER=/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++ --with-pkgversion='conda-forge gcc 14.2.0-2' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.2.0 (conda-forge gcc 14.2.0-2) 
+        COMPILER_PATH=/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/:/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../lib/:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/data/home/kyrielpeng/miniforge3/include' '-L/data/home/kyrielpeng/miniforge3/lib' '-v' '-o' 'cmTC_4fb76' '-dumpdir' 'cmTC_4fb76.'
+         /data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/collect2 -plugin /data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccA4qcTB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4fb76 /data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtbeginS.o -L/data/home/kyrielpeng/miniforge3/lib -L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0 -L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc -L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../lib -L/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib -L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../.. -L/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /data/home/kyrielpeng/miniforge3/lib -rpath-link /data/home/kyrielpeng/miniforge3/lib CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtendS.o /data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /data/home/kyrielpeng/miniforge3/lib
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/data/home/kyrielpeng/miniforge3/include' '-L/data/home/kyrielpeng/miniforge3/lib' '-v' '-o' 'cmTC_4fb76' '-dumpdir' 'cmTC_4fb76.'
+        gmake[1]: Leaving directory '/data/home/kyrielpeng/homework/homework/hw1/build/CMakeFiles/CMakeScratch/TryCompile-pNdcr4'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/data/home/kyrielpeng/miniforge3/include]
+          add: [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/include]
+          add: [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/include-fixed]
+          add: [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/data/home/kyrielpeng/miniforge3/include] ==> [/data/home/kyrielpeng/miniforge3/include]
+        collapse include dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/include] ==> [/data/home/kyrielpeng/miniforge3/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include]
+        collapse include dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/include-fixed] ==> [/data/home/kyrielpeng/miniforge3/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include-fixed]
+        collapse include dir [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/data/home/kyrielpeng/miniforge3/include;/data/home/kyrielpeng/miniforge3/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include;/data/home/kyrielpeng/miniforge3/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include-fixed;/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /data/home/kyrielpeng/homework/homework/hw1/build/CMakeFiles/CMakeScratch/TryCompile-pNdcr4]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_4fb76/fast && /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_4fb76.dir/build.make CMakeFiles/cmTC_4fb76.dir/build]
+        ignore line: [gmake[1]: Entering directory '/data/home/kyrielpeng/homework/homework/hw1/build/CMakeFiles/CMakeScratch/TryCompile-pNdcr4']
+        ignore line: [Building C object CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/data/home/kyrielpeng/miniforge3/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/kyrielpeng/miniforge3/include    -v -o CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/data/home/kyrielpeng/miniforge3/bin/x86_64-conda-linux-gnu-cc]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++ --with-pkgversion='conda-forge gcc 14.2.0-2' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.2.0 (conda-forge gcc 14.2.0-2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/data/home/kyrielpeng/miniforge3/include' '-v' '-o' 'CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_4fb76.dir/']
+        ignore line: [ /data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/cc1 -quiet -v -iprefix /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/ -isysroot /data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot -isystem /data/home/kyrielpeng/miniforge3/include /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4fb76.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o]
+        ignore line: [GNU assembler version 2.43 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.43]
+        ignore line: [GNU C17 (conda-forge gcc 14.2.0-2) version 14.2.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.2.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /data/home/kyrielpeng/miniforge3/include]
+        ignore line: [ /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/include]
+        ignore line: [ /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/include-fixed]
+        ignore line: [ /data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 8787a0f9d6820a2d1236d81dc1e25e3b]
+        ignore line: [COMPILER_PATH=/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/:/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../lib/:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/data/home/kyrielpeng/miniforge3/include' '-v' '-o' 'CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_4fb76]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fb76.dir/link.txt --verbose=1]
+        ignore line: [/data/home/kyrielpeng/miniforge3/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/kyrielpeng/miniforge3/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /data/home/kyrielpeng/miniforge3/lib -Wl -rpath-link /data/home/kyrielpeng/miniforge3/lib -L/data/home/kyrielpeng/miniforge3/lib -v CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o -o cmTC_4fb76 ]
+        ignore line: [Reading specs from /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/data/home/kyrielpeng/miniforge3/bin/x86_64-conda-linux-gnu-cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1740238128824/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++ --with-pkgversion='conda-forge gcc 14.2.0-2' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.2.0 (conda-forge gcc 14.2.0-2) ]
+        ignore line: [COMPILER_PATH=/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/:/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../lib/:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib/:/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/data/home/kyrielpeng/miniforge3/include' '-L/data/home/kyrielpeng/miniforge3/lib' '-v' '-o' 'cmTC_4fb76' '-dumpdir' 'cmTC_4fb76.']
+        link line: [ /data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/collect2 -plugin /data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccA4qcTB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_4fb76 /data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtbeginS.o -L/data/home/kyrielpeng/miniforge3/lib -L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0 -L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc -L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../lib -L/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib -L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../.. -L/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /data/home/kyrielpeng/miniforge3/lib -rpath-link /data/home/kyrielpeng/miniforge3/lib CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtendS.o /data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /data/home/kyrielpeng/miniforge3/lib]
+          arg [/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/data/home/kyrielpeng/miniforge3/bin/../libexec/gcc/x86_64-conda-linux-gnu/14.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccA4qcTB.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_4fb76] ==> ignore
+          arg [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtbeginS.o] ==> obj [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtbeginS.o]
+          arg [-L/data/home/kyrielpeng/miniforge3/lib] ==> dir [/data/home/kyrielpeng/miniforge3/lib]
+          arg [-L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0] ==> dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0]
+          arg [-L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc] ==> dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc]
+          arg [-L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../lib] ==> dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../lib]
+          arg [-L/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../..] ==> dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../..]
+          arg [-L/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--disable-new-dtags] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--allow-shlib-undefined] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/data/home/kyrielpeng/miniforge3/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/data/home/kyrielpeng/miniforge3/lib] ==> ignore
+          arg [CMakeFiles/cmTC_4fb76.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtendS.o] ==> obj [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtendS.o]
+          arg [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/data/home/kyrielpeng/miniforge3/lib] ==> ignore
+        collapse obj [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtbeginS.o] ==> [/data/home/kyrielpeng/miniforge3/lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtbeginS.o]
+        collapse obj [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtendS.o] ==> [/data/home/kyrielpeng/miniforge3/lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtendS.o]
+        collapse obj [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/data/home/kyrielpeng/miniforge3/lib] ==> [/data/home/kyrielpeng/miniforge3/lib]
+        collapse library dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0] ==> [/data/home/kyrielpeng/miniforge3/lib/gcc/x86_64-conda-linux-gnu/14.2.0]
+        collapse library dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc] ==> [/data/home/kyrielpeng/miniforge3/lib/gcc]
+        collapse library dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../lib] ==> [/data/home/kyrielpeng/miniforge3/lib]
+        collapse library dir [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/data/home/kyrielpeng/miniforge3/bin/../lib/gcc/x86_64-conda-linux-gnu/14.2.0/../../..] ==> [/data/home/kyrielpeng/miniforge3/lib]
+        collapse library dir [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/data/home/kyrielpeng/miniforge3/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/data/home/kyrielpeng/miniforge3/lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtbeginS.o;/data/home/kyrielpeng/miniforge3/lib/gcc/x86_64-conda-linux-gnu/14.2.0/crtendS.o;/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/data/home/kyrielpeng/miniforge3/lib;/data/home/kyrielpeng/miniforge3/lib/gcc/x86_64-conda-linux-gnu/14.2.0;/data/home/kyrielpeng/miniforge3/lib/gcc;/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/lib;/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/lib;/data/home/kyrielpeng/miniforge3/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      NASM version 2.15.03 compiled on Jun 22 2021
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is Clang using "--version" did not match "(clang version)":
+      NASM version 2.15.03 compiled on Jun 22 2021
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+      NASM version 2.15.03 compiled on Jun 22 2021
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is ARMClang using "--version" did not match "armclang":
+      NASM version 2.15.03 compiled on Jun 22 2021
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is HP using "-V" did not match "HP C":
+      nasm: error: unrecognised option `-V'
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is Intel using "--version" did not match "(ICC)":
+      NASM version 2.15.03 compiled on Jun 22 2021
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      NASM version 2.15.03 compiled on Jun 22 2021
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is SunPro using "-V" did not match "Sun C":
+      nasm: error: unrecognised option `-V'
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is XL using "-qversion" did not match "XL C":
+      nasm: error: unrecognised option `-q'
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is MSVC using "-?" did not match "Microsoft":
+      nasm: error: unrecognised option `-?'
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is TI using "-h" did not match "Texas Instruments":
+      Usage: /usr/bin/nasm [-@ response_file] [options...] [--] filename
+             /usr/bin/nasm -v (or --v)
+      
+      Options (values in brackets indicate defaults):
+      
+          -h            show this text and exit (also --help)
+          -v (or --v)   print the NASM version number and exit
+          -@ file       response file; one command line option per line
+      
+          -o outfile    write output to outfile
+          --keep-all    output files will not be removed even if an error happens
+      
+          -Xformat      specifiy error reporting format (gnu or vc)
+          -s            redirect error messages to stdout
+          -Zfile        redirect error messages to file
+      
+          -M            generate Makefile dependencies on stdout
+          -MG           d:o, missing files assumed generated
+          -MF file      set Makefile dependency file
+          -MD file      assemble and generate dependencies
+          -MT file      dependency target name
+          -MQ file      dependency target name (quoted)
+          -MP           emit phony targets
+      
+          -f format     select output file format
+             bin                  Flat raw binary (MS-DOS, embedded, ...) [default]
+             ith                  Intel Hex encoded flat binary
+             srec                 Motorola S-records encoded flat binary
+             aout                 Linux a.out
+             aoutb                NetBSD/FreeBSD a.out
+             coff                 COFF (i386) (DJGPP, some Unix variants)
+             elf32                ELF32 (i386) (Linux, most Unix variants)
+             elf64                ELF64 (x86-64) (Linux, most Unix variants)
+             elfx32               ELFx32 (ELF32 for x86-64) (Linux)
+             as86                 as86 (bin86/dev86 toolchain)
+             obj                  Intel/Microsoft OMF (MS-DOS, OS/2, Win16)
+             win32                Microsoft extended COFF for Win32 (i386)
+             win64                Microsoft extended COFF for Win64 (x86-64)
+             rdf                  Relocatable Dynamic Object File Format v2.0
+             ieee                 IEEE-695 (LADsoft variant) object file format
+             macho32              Mach-O i386 (Mach, including MacOS X and variants)
+             macho64              Mach-O x86-64 (Mach, including MacOS X and variants)
+             dbg                  Trace of all info passed to output stage
+             elf                  Legacy alias for "elf32"
+             macho                Legacy alias for "macho32"
+             win                  Legacy alias for "win32"
+      
+          -g            generate debugging information
+          -F format     select a debugging format (output format dependent)
+          -gformat      same as -g -F format
+             elf32:     dwarf     ELF32 (i386) dwarf (newer) [default]
+                        stabs     ELF32 (i386) stabs (older)
+             elf64:     dwarf     ELF64 (x86-64) dwarf (newer) [default]
+                        stabs     ELF64 (x86-64) stabs (older)
+             elfx32:    dwarf     ELFx32 (x86-64) dwarf (newer) [default]
+                        stabs     ELFx32 (x86-64) stabs (older)
+             obj:       borland   Borland Debug Records [default]
+             win32:     cv8       Codeview 8+ [default]
+             win64:     cv8       Codeview 8+ [default]
+             ieee:      ladsoft   LADsoft Debug Records [default]
+             macho32:   dwarf     Mach-O i386 dwarf for Darwin/MacOS [default]
+             macho64:   dwarf     Mach-O x86-64 dwarf for Darwin/MacOS [default]
+             dbg:       debug     Trace of all info passed to debug stage [default]
+      
+          -l listfile   write listing to a list file
+          -Lflags...    add optional information to the list file
+             -Lb        show builtin macro packages (standard and %use)
+             -Ld        show byte and repeat counts in decimal, not hex
+             -Le        show the preprocessed output
+             -Lf        ignore .nolist (force output)
+             -Lm        show multi-line macro calls with expanded parmeters
+             -Lp        output a list file every pass, in case of errors
+             -Ls        show all single-line macro definitions
+             -Lw        flush the output after every line
+             -L+        enable all listing options (very verbose!)
+      
+          -Oflags...    optimize opcodes, immediates and branch offsets
+             -O0        no optimization
+             -O1        minimal optimization
+             -Ox        multipass optimization (default)
+             -Ov        display the number of passes executed at the end
+          -t            assemble in limited SciTech TASM compatible mode
+      
+          -E (or -e)    preprocess only (writes output to stdout by default)
+          -a            don't preprocess (assemble only)
+          -Ipath        add a pathname to the include file path
+          -Pfile        pre-include a file (also --include)
+          -Dmacro[=str] pre-define a macro
+          -Umacro       undefine a macro
+         --pragma str   pre-executes a specific %%pragma
+         --before str   add line (usually a preprocessor statement) before the input
+         --no-line      ignore %line directives in input
+      
+         --prefix str   prepend the given string to the names of all extern,
+                        common and global symbols (also --gprefix)
+         --suffix str   append the given string to the names of all extern,
+                        common and global symbols (also --gprefix)
+         --lprefix str  prepend the given string to local symbols
+         --lpostfix str append the given string to local symbols
+      
+          -w+x          enable warning x (also -Wx)
+          -w-x          disable warning x (also -Wno-x)
+          -w[+-]error   promote all warnings to errors (also -Werror)
+          -w[+-]error=x promote warning x to errors (also -Werror=x)
+             all                  all possible warnings
+             bnd                  invalid BND prefixes [on]
+             db-empty             no operand for data declaration [on]
+             environment          nonexistent environment variable [on]
+             float                all warnings prefixed with "float-"
+             float-denorm         floating point denormal [off]
+             float-overflow       floating point overflow [on]
+             float-toolong        too many digits in floating-point number [on]
+             float-underflow      floating point underflow [off]
+             hle                  invalid HLE prefixes [on]
+             label                all warnings prefixed with "label-"
+             label-orphan         labels alone on lines without trailing `:' [on]
+             label-redef          label redefined to an identical value [off]
+             label-redef-late     label (re)defined during code generation [error]
+             lock                 LOCK prefix on unlockable instructions [on]
+             macro                all warnings prefixed with "macro-"
+             macro-defaults       macros with more default than optional parameters [on]
+             macro-params         all warnings prefixed with "macro-params-"
+             macro-params-legacy  improperly calling multi-line macro for legacy support [on]
+             macro-params-multi   multi-line macro calls with wrong parameter count [on]
+             macro-params-single  single-line macro calls with wrong parameter count [on]
+             negative-rep         regative %rep count [on]
+             number-overflow      numeric constant does not fit [on]
+             obsolete             all warnings prefixed with "obsolete-"
+             obsolete-nop         instruction obsolete and is a noop on the target CPU [on]
+             obsolete-removed     instruction obsolete and removed on the target CPU [on]
+             obsolete-valid       instruction obsolete but valid on the target CPU [on]
+             phase                phase error during stabilization [off]
+             pragma               all warnings prefixed with "pragma-"
+             pragma-bad           malformed %pragma [off]
+             pragma-empty         empty %pragma directive [off]
+             pragma-na            %pragma not applicable to this compilation [off]
+             pragma-unknown       unknown %pragma facility or directive [off]
+             ptr                  non-NASM keyword used in other assemblers [on]
+             regsize              register size specification ignored [on]
+             unknown-warning      unknown warning in -W/-w or warning directive [off]
+             user                 %warning directives [on]
+             warn-stack-empty     warning stack empty [on]
+             zeroing              RESx in initialized section becomes zero [on]
+             zext-reloc           relocation zero-extended to match output format [on]
+             other                any warning not specifially mentioned above [on]
+      
+         --limit-X val  set execution limit X
+             passes               total number of passes [unlimited]
+             stalled-passes       number of passes without forward progress [1000]
+             macro-levels         levels of macro expansion [10000]
+             macro-tokens         tokens processed during single-lime macro expansion [10000000]
+             mmacros              multi-line macros before final return [100000]
+             rep                  %rep count [1000000]
+             eval                 expression evaluation descent [8192]
+             lines                total source lines processed [2000000000]
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is IAR using "" did not match "IAR Assembler":
+      nasm: fatal: no input file specified
+      Type /usr/bin/nasm -h for help.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)|(Arm Compiler)":
+      nasm: fatal: no input file specified
+      Type /usr/bin/nasm -h for help.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM_NASM compiler is NASM using "-v" matched "(NASM version)":
+      NASM version 2.15.03 compiled on Jun 22 2021
+...

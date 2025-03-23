@@ -1,0 +1,3 @@
+/data/home/kyrielpeng/homework/homework/hw1/build/CMakeFiles/hw1.dir
+/data/home/kyrielpeng/homework/homework/hw1/build/CMakeFiles/edit_cache.dir
+/data/home/kyrielpeng/homework/homework/hw1/build/CMakeFiles/rebuild_cache.dir
