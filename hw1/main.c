@@ -6,6 +6,13 @@ extern int int_add(int a, int b);
 extern float float_add(float a, float b);
 extern void simd_add(float* result, float* a, float* b, int n);
 
+void normal_add(float* result, float* a, float* b, int n){
+    for(int i = 0; i < n; ++i){
+        result[i] = a[i] + b[i];
+    }
+    return;
+}
+
 int main(){
     int len = 100000;
     float a[100000];
@@ -36,9 +43,7 @@ int main(){
     printf("simd_add cost time: %f\n", (double)(end - start));
 
     start = clock();
-    for(int i = 0; i < len; ++i){
-        result[i] = a[i] + b[i];
-    }
+    normal_add(result, a, b, len);
     end = clock();
     printf("normal add cost time: %f\n", (double)(end - start));
 
