@@ -1,0 +1,6 @@
+[submodule "cpufp"]
+	path = cpufp
+	url = git@github.com:obbhhh/cpufp.git
+[submodule "hw2/cpufp"]
+	path = hw2/cpufp
+	url = git@github.com:obbhhh/cpufp.git
